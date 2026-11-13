@@ -13,15 +13,29 @@ Archivista con licenciatura en **Administración de Archivo y Gestión Documenta
 ## 💼 Experiencia
 
 **Encargada de Archivo** · Dependencia del gobierno de la Ciudad de México · *Jun. 2023 – Actual*
-- Registro, búsqueda y control de expedientes y de la base de datos del archivo.
+- Registro de información y búsqueda de expedientes.
+- Gestión y actualización de base de datos.
+- Elaboración de reporte mensual para llevar control de toda la información recibida y resguardada.
 - Elaboración del Programa Anual de Desarrollo Archivístico.
-- Creación y actualización de instrumentos archivísticos.
-- Reportes mensuales de la información recibida y resguardada.
+- Creación de instrumentos archivísticos.
+- Control, actualización y manejo de instrumentos archivísticos.
 - Procedimientos y seguimiento de bajas documentales.
 
-**Prácticas profesionales**
-- **Archivo Histórico de la Ciudad de México:** bases de datos, expedientes e inventarios, estabilización de material, escaneo y mejora de legibilidad con programas de edición.
-- **Fideicomiso de Fomento Minero:** identificadores y etiquetas de cajas, cosido de expedientes, inventario general y transferencia primaria.
+## 🏛️ Prácticas profesionales
+
+**Archivo Histórico de la Ciudad de México**
+- Creación de base de datos, expedientes e inventarios.
+- Estabilización de material archivístico.
+- Intervenciones menores de restauración de planos.
+- Escaneo de documentos.
+- Estética de documentos para mejor legibilidad y mejor acceso, a través de programas de edición.
+
+**Fideicomiso de Fomento Minero**
+- Creación de identificadores de cajas, portadas y etiquetas para expedientes.
+- Cosimiento de expedientes.
+- Captura de pólizas diarias, viáticos y regionales.
+- Llenado de inventario general.
+- Transferencia primaria de expedientes.
 
 ## 🎓 Formación
 
