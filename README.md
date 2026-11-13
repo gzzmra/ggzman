@@ -36,12 +36,24 @@ Archivista con licenciatura en **Administración de Archivo y Gestión Documenta
 | 📑 **Resumen ejecutivo de contratos** | Página web que presenta la información clave de cada contrato en fichas claras y fáciles de consultar. |
 | 🗄️ **Manual de archivo** | Manual de procedimientos para organizar y conservar el archivo de una organización. |
 
-## 📚 Cursos y seminarios
+## 📚 Cursos, seminarios y diplomados
 
-- **INAI** · *Inteligencia Artificial y los Archivos en México* (2024) · *Normas técnicas de la Ley General de Archivos* (2024) · *Utilidad social de los archivos* (2025) · *Ética pública* (2024)
-- **ALA** · *Valorar documental en el siglo XXI* (2025) · *Menos es más: simplificación administrativa y gestión documental* (2025)
-- **CONDUSEF** · Diplomado en Educación Financiera (2025)
-- **Archivo Histórico de la CDMX** · Digitalización y calibración de escáner (2021)
+**Instituto Nacional de Transparencia, Acceso a la Información y Protección de Datos Personales (INAI)**
+- Seminario *"Utilidad Social de los Archivos: Reflexiones y Perspectivas para la Gestión Documental"* · 2025
+- *Normas técnicas para fortalecer la implementación y cumplimiento de la Ley General de Archivos* · 2024
+- *Inteligencia Artificial y los Archivos en México: análisis de política pública, regulación y buenas prácticas* · 2024
+- *Ética Pública* · 2024
+
+**Asociación Latinoamericana de Archivos (ALA)**
+- *Menos es más: simplificación administrativa y Gestión Documental* · 2025
+- *Valorar Documental en el siglo XXI: el modelo taxonómico a la valoración funcional* · 2025
+
+**Comisión Nacional para la Protección y Defensa de los Usuarios de Servicios Financieros (CONDUSEF)**
+- Diplomado en Educación Financiera · 2025
+
+**Archivo Histórico de la Ciudad de México (IMAC)**
+- Programa especializado: *Creatividad, diseño e innovación: Técnicas y herramientas* · 2021
+- Curso de digitalización y calibración de escáner para la mejora de calidad · 2021
 
 ## 🧰 Herramientas
 
