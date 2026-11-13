@@ -6,6 +6,8 @@
 
 Archivista con licenciatura en **Administración de Archivo y Gestión Documental** (UNAM). Me interesa cómo la tecnología (automatización, ML y NLP) puede mejorar la forma en que se gestionan los documentos.
 
+<img src="stats.svg" alt="Archivista desde 2023 · 9 cursos y seminarios · 3 proyectos" width="100%"/>
+
 </div>
 
 ---
@@ -69,20 +71,13 @@ Archivista con licenciatura en **Administración de Archivo y Gestión Documenta
 - Programa especializado: *Creatividad, diseño e innovación: Técnicas y herramientas* · 2021
 - Curso de digitalización y calibración de escáner para la mejora de calidad · 2021
 
-## 🧰 Herramientas
+## 🧰 Habilidades
 
 <div align="center">
 
-![Photoshop](https://img.shields.io/badge/Photoshop-31A8FF?style=for-the-badge&logo=adobephotoshop&logoColor=white)
-![GIMP](https://img.shields.io/badge/GIMP-5C5543?style=for-the-badge&logo=gimp&logoColor=white)
-![Office](https://img.shields.io/badge/Office-D83B01?style=for-the-badge&logo=microsoftoffice&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+<img src="skills.svg" alt="Habilidades de archivo y herramientas" width="100%"/>
 
 </div>
-
-**Archivo:** administración de expedientes · inventarios · instrumentos archivísticos · digitalización y control de calidad · bajas documentales
 
 **Idiomas:** Español (nativo) · Inglés (básico)
 
@@ -90,7 +85,7 @@ Archivista con licenciatura en **Administración de Archivo y Gestión Documenta
 
 <div align="center">
 
-[![GitHub](https://img.shields.io/badge/GitHub-ggzman-181717?style=for-the-badge&logo=github)](https://github.com/ggzman)
-[![Correo](https://img.shields.io/badge/Correo-marianaghernandez1@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:marianaghernandez1@gmail.com)
+<a href="https://github.com/ggzman"><img src="contact-github.svg" alt="GitHub ggzman" height="56"/></a>
+<a href="mailto:marianaghernandez1@gmail.com"><img src="contact-mail.svg" alt="Correo" height="56"/></a>
 
 </div>
