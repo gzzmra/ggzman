@@ -12,6 +12,34 @@ Archivista, egresada de la **Licenciatura en Administración de Archivo y Gesti�
 
 ---
 
+## 👋 Hola, soy Mariana
+
+- 🔭 Desarrollando el manual e instructivos de archivo de Grupo HYCSA
+- 🤖 Explorando la clasificación automática de documentos con ML y NLP (mi tesis)
+- 🗂️ Archivo jurídico y gestión documental, en el sector público y el privado
+
+## 🧰 Habilidades y herramientas
+
+**Archivo**
+
+![Instrumentos archivísticos](https://img.shields.io/badge/Instrumentos_archiv%C3%ADsticos-6d28d9?style=for-the-badge)
+![Bajas documentales](https://img.shields.io/badge/Bajas_documentales-0891b2?style=for-the-badge)
+![Inventarios](https://img.shields.io/badge/Inventarios-db2777?style=for-the-badge)
+![Control de expedientes](https://img.shields.io/badge/Control_de_expedientes-4f46e5?style=for-the-badge)
+![Escaneo y control de calidad](https://img.shields.io/badge/Escaneo_y_control_de_calidad-0d9488?style=for-the-badge)
+![Ley General de Archivos](https://img.shields.io/badge/Ley_General_de_Archivos-7c3aed?style=for-the-badge)
+
+**Herramientas**
+
+![Office](https://img.shields.io/badge/Office-d83b01?style=for-the-badge)
+![Photoshop](https://img.shields.io/badge/Photoshop-31a8ff?style=for-the-badge)
+![GIMP](https://img.shields.io/badge/GIMP-5c5543?style=for-the-badge)
+![PHP](https://img.shields.io/badge/PHP-777bb4?style=for-the-badge)
+
+**Idiomas:** Español (nativo) · Inglés (básico)
+
+---
+
 ## 💼 Experiencia
 
 **Archivo Jurídico** · Grupo HYCSA · *Dic. 2025 – Actual*
@@ -28,27 +56,6 @@ Archivista, egresada de la **Licenciatura en Administración de Archivo y Gesti�
 - Creación, actualización y manejo de instrumentos archivísticos.
 - Seguimiento de procedimientos de baja documental.
 
-## 🏛️ Prácticas profesionales
-
-**Archivo Histórico de la Ciudad de México**
-- Creación de base de datos, expedientes e inventarios.
-- Estabilización de material archivístico.
-- Intervenciones menores de restauración de planos.
-- Escaneo de documentos.
-- Mejora estética de documentos con programas de edición, para mayor legibilidad y mejor acceso.
-
-**Fideicomiso de Fomento Minero**
-- Creación de identificadores de cajas, portadas y etiquetas para expedientes.
-- Cosido de expedientes.
-- Captura de pólizas diarias, viáticos y regionales.
-- Llenado de inventario general.
-- Transferencia primaria de expedientes.
-
-## 🎓 Formación
-
-- **Licenciatura en Administración de Archivo y Gestión Documental** (egresada) · UNAM, Facultad de Filosofía y Letras · 2019 – 2023
-- **Técnica profesional en Archivística** · UNAM, Facultad de Filosofía y Letras
-
 ## 📂 Proyectos
 
 | Proyecto | Descripción |
@@ -57,7 +64,42 @@ Archivista, egresada de la **Licenciatura en Administración de Archivo y Gesti�
 | 📑 **Resumen ejecutivo de contratos** | Página web en PHP que presenta la información clave de cada contrato en fichas claras y fáciles de consultar, listas para imprimir o guardar como PDF. |
 | 🗄️ **Manual e instructivos de archivo** | Manual de procedimientos para organizar y conservar el archivo de una organización, con instructivos de préstamo y consulta, clasificación e integración de expedientes, y transferencia y baja documental. |
 
+## 🏛️ Prácticas profesionales
+
+<details>
+<summary><b>Archivo Histórico de la Ciudad de México</b></summary>
+<br>
+
+- Creación de base de datos, expedientes e inventarios.
+- Estabilización de material archivístico.
+- Intervenciones menores de restauración de planos.
+- Escaneo de documentos.
+- Mejora estética de documentos con programas de edición, para mayor legibilidad y mejor acceso.
+
+</details>
+
+<details>
+<summary><b>Fideicomiso de Fomento Minero</b></summary>
+<br>
+
+- Creación de identificadores de cajas, portadas y etiquetas para expedientes.
+- Cosido de expedientes.
+- Captura de pólizas diarias, viáticos y regionales.
+- Llenado de inventario general.
+- Transferencia primaria de expedientes.
+
+</details>
+
+## 🎓 Formación
+
+- **Licenciatura en Administración de Archivo y Gestión Documental** (egresada) · UNAM, Facultad de Filosofía y Letras · 2019 – 2023
+- **Técnica profesional en Archivística** · UNAM, Facultad de Filosofía y Letras
+
 ## 📚 Cursos, seminarios y diplomados
+
+<details>
+<summary><b>Ver los 9 cursos</b></summary>
+<br>
 
 **Instituto Nacional de Transparencia, Acceso a la Información y Protección de Datos Personales (INAI)**
 - Seminario *"Utilidad Social de los Archivos: Reflexiones y Perspectivas para la Gestión Documental"* · 2025
@@ -76,21 +118,13 @@ Archivista, egresada de la **Licenciatura en Administración de Archivo y Gesti�
 - Programa especializado: *Creatividad, diseño e innovación: Técnicas y herramientas* · 2021
 - Curso de digitalización y calibración de escáner para la mejora de calidad · 2021
 
-## 🧰 Habilidades
-
-<div align="center">
-
-<img src="skills.svg" alt="Habilidades de archivo y herramientas" width="100%"/>
-
-</div>
-
-**Idiomas:** Español (nativo) · Inglés (básico)
+</details>
 
 ## 📬 Contacto
 
 <div align="center">
 
-<a href="https://github.com/ggzman"><img src="contact-github.svg" alt="GitHub ggzman" height="56"/></a>
-<a href="mailto:marianaghernandez1@gmail.com"><img src="contact-mail.svg" alt="Correo" height="56"/></a>
+<a href="https://github.com/ggzman"><img src="https://img.shields.io/badge/GitHub-ggzman-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub ggzman"/></a>
+<a href="mailto:marianaghernandez1@gmail.com"><img src="https://img.shields.io/badge/Correo-Escr%C3%ADbeme-ea4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Correo"/></a>
 
 </div>
