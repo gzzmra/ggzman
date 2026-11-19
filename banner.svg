@@ -1,39 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
 <title id="title">Mariana Guzmán — Gestión documental y tecnología</title>
-<desc id="desc">Portada oscura con acentos rojos y una composición de información, documentos y tecnología.</desc>
+<desc id="desc">Composición negra con tipografía monumental MARIANA y un resplandor rojo coral.</desc>
 <defs>
-  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-    <stop offset="0" stop-color="#111214"/><stop offset="1" stop-color="#202124"/>
-  </linearGradient>
-  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
-    <stop offset="0" stop-color="#ff6747"/><stop offset="1" stop-color="#c92d13"/>
-  </linearGradient>
-  <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
-    <path d="M34 0H0V34" fill="none" stroke="#ffffff" stroke-opacity=".055" stroke-width="1"/>
-  </pattern>
-  <filter id="glow"><feGaussianBlur stdDeviation="18"/></filter>
+ <radialGradient id="redGlow" cx="24%" cy="100%" r="70%"><stop offset="0" stop-color="#fff0e8"/><stop offset=".18" stop-color="#ff8068"/><stop offset=".42" stop-color="#ef2d20"/><stop offset="1" stop-color="#030303" stop-opacity="0"/></radialGradient>
+ <linearGradient id="letters" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#080808"/><stop offset=".48" stop-color="#18100f"/><stop offset=".72" stop-color="#ffd0c1"/><stop offset="1" stop-color="#ff4b35"/></linearGradient>
+ <filter id="blur"><feGaussianBlur stdDeviation="24"/></filter>
 </defs>
-<rect width="1200" height="330" rx="18" fill="url(#bg)"/>
-<rect width="1200" height="330" rx="18" fill="url(#grid)"/>
-<circle cx="1020" cy="150" r="140" fill="#e8401c" opacity=".15" filter="url(#glow)"/>
-<path d="M0 286H1200" stroke="#e8401c" stroke-width="3" opacity=".9"/>
-<rect x="58" y="54" width="7" height="190" rx="3" fill="url(#accent)"/>
-<text x="92" y="91" fill="#e8401c" font-family="Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="4">PORTAFOLIO PROFESIONAL / 2026</text>
-<text x="90" y="158" fill="#f4f1ec" font-family="Arial, sans-serif" font-size="57" font-weight="700">Mariana Guzmán</text>
-<text x="93" y="199" fill="#d8d5d0" font-family="Arial, sans-serif" font-size="21">Gestión documental · Tecnología · Diseño de soluciones</text>
-<text x="93" y="239" fill="#aaa7a2" font-family="Arial, sans-serif" font-size="15">Organizar información. Diseñar herramientas. Mejorar procesos.</text>
-<!-- abstract information architecture -->
-<g transform="translate(850 54)" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <rect x="28" y="25" width="205" height="174" rx="12" stroke="#77736f" stroke-opacity=".65" stroke-width="1.5"/>
-  <path d="M52 57H154M52 73H205M52 89H181" stroke="#8f8b86" stroke-width="5" opacity=".55"/>
-  <rect x="52" y="111" width="65" height="60" rx="6" stroke="#e8401c" stroke-width="2"/>
-  <path d="M66 128H103M66 140H96M66 152H88" stroke="#e8401c" stroke-width="3"/>
-  <rect x="137" y="111" width="68" height="60" rx="6" stroke="#77736f" stroke-width="1.5"/>
-  <path d="M151 128H191M151 140H185M151 152H178" stroke="#8f8b86" stroke-width="3"/>
-  <path d="M0 112H28M233 112H260" stroke="#e8401c" stroke-width="2"/>
-  <circle cx="0" cy="112" r="4" fill="#e8401c"/><circle cx="260" cy="112" r="4" fill="#e8401c"/>
-  <path d="M130 199V230M91 230H169" stroke="#e8401c" stroke-width="2"/>
-  <circle cx="130" cy="230" r="5" fill="#e8401c"/>
+<rect width="1200" height="360" rx="20" fill="#030303"/>
+<ellipse cx="330" cy="360" rx="650" ry="245" fill="url(#redGlow)" filter="url(#blur)"/>
+<g font-family="Arial,Helvetica,sans-serif">
+ <text x="48" y="47" fill="#f4f1ec" font-size="14" font-weight="700">MG. / MARIANA GUZMÁN</text>
+ <text x="1150" y="47" text-anchor="end" fill="#c9c4c0" font-size="11">GESTIÓN DOCUMENTAL · TECNOLOGÍA · DISEÑO</text>
+ <text x="22" y="329" fill="url(#letters)" font-size="300" font-weight="900" letter-spacing="-22">MARIANA</text>
+ <text x="50" y="91" fill="#ff8b73" font-size="12" letter-spacing="3">PORTAFOLIO PROFESIONAL / 2026</text>
 </g>
-<text x="1110" y="292" text-anchor="end" fill="#77736f" font-family="monospace" font-size="11" letter-spacing="2">ARCHIVE × DATA × DESIGN</text>
+<path d="M0 350H1200" stroke="#e8401c" stroke-opacity=".8" stroke-width="2"/>
 </svg>
