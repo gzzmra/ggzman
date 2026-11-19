@@ -11,10 +11,28 @@
 a{color:inherit;text-decoration:none}.wrap{width:min(var(--max),calc(100% - 40px));margin:auto}
 header{padding:18px 0;border-bottom:1px solid var(--line);position:sticky;top:0;background:#111214ed;backdrop-filter:blur(12px);z-index:5}
 nav{display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{font-weight:750;letter-spacing:.02em}.brand span{color:var(--red)}.links{display:flex;gap:22px;flex-wrap:wrap;font-size:13px;color:var(--muted)}.links a:hover,.textlink:hover{color:var(--red)}
-.hero{padding:78px 0 58px;position:relative;overflow:hidden}.hero:after{content:"";position:absolute;width:380px;height:380px;border-radius:50%;background:#e8401c20;filter:blur(70px);right:4%;top:20px;pointer-events:none}
-.kicker,.eyebrow{color:var(--red);font:700 12px/1.4 ui-monospace,monospace;letter-spacing:.16em;text-transform:uppercase}
-h1{font-size:clamp(42px,8vw,76px);line-height:1.04;letter-spacing:-.055em;margin:18px 0 20px;max-width:850px;position:relative;z-index:1}
-.lead{font-size:clamp(18px,2.5vw,23px);color:#d8d5d0;max-width:760px;line-height:1.5}.intro{color:var(--muted);max-width:720px}
+
+.hero{padding:22px 0 46px;position:relative;overflow:visible}
+.hero-shell{position:relative;isolation:isolate;overflow:hidden;min-height:590px;border-radius:24px;background:#030303;border:1px solid #292323;box-shadow:0 28px 90px #0009;margin-top:18px}
+.hero-shell:before{content:"";position:absolute;z-index:-1;inset:-18%;background:radial-gradient(ellipse at 18% 83%,#ff321d 0,#f12c1c 13%,#b71c18 24%,transparent 48%),radial-gradient(ellipse at 63% 105%,#ff6d4b 0,#b92720 20%,transparent 48%);filter:blur(35px);opacity:.92;animation:ember 9s ease-in-out infinite alternate}
+.hero-shell:after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,#000 0%,#000 42%,#0008 72%,#0000 100%);pointer-events:none}
+@keyframes ember{0%{transform:translate(-2%,2%) scale(1)}100%{transform:translate(4%,-2%) scale(1.12)}}
+.hero-top{position:relative;z-index:2;display:flex;align-items:center;justify-content:space-between;padding:22px 26px;gap:12px}
+.hero-logo{font-size:13px;font-weight:750;letter-spacing:.04em;color:#f6f3ef}
+.glass-nav{display:flex;gap:18px;align-items:center;padding:10px 17px;border:1px solid #ffffff25;border-radius:999px;background:#ffffff12;backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);box-shadow:inset 0 1px #ffffff18,0 8px 30px #0005;font-size:11px;color:#ddd}
+.glass-nav a:hover{color:#fff}
+.hero-contact{padding:10px 17px;border-radius:999px;background:#f5f3ef;color:#111;font-size:12px;font-weight:700}
+.hero-copy{position:relative;z-index:2;margin:48px 7% 0 auto;max-width:360px;text-align:left}
+.hero-copy .kicker{font-size:10px;color:#ff8b73}
+.hero-copy p{font-size:clamp(17px,2vw,22px);line-height:1.18;letter-spacing:-.035em;color:#f4f1ec;margin-top:12px}
+.hero-word{position:absolute;z-index:1;left:2.5%;right:2%;bottom:-.095em;white-space:nowrap;font-size:clamp(105px,24vw,315px);font-weight:900;letter-spacing:-.095em;line-height:.78;color:transparent;background:linear-gradient(180deg,#080808 10%,#15100f 38%,#ffb19a 61%,#fff0e8 76%,#ff432e 92%);background-clip:text;-webkit-background-clip:text;filter:drop-shadow(0 10px 28px #ff3b2428);animation:wordGlow 7s ease-in-out infinite alternate;pointer-events:none}
+@keyframes wordGlow{0%{filter:drop-shadow(0 8px 18px #ff3b241c)}100%{filter:drop-shadow(0 8px 38px #ff3b2460)}}
+.hero-bottom{position:absolute;z-index:2;left:26px;right:26px;bottom:22px;display:flex;justify-content:space-between;align-items:center;color:#d5bcb7;font:10px ui-monospace,monospace;letter-spacing:.04em}
+.hero-bottom span:last-child{color:#eee}
+.hero-summary{max-width:760px;margin:28px auto 0;text-align:center}
+.hero-summary .lead{margin:0 auto}
+.hero-summary .intro{margin:12px auto 0}
+
 .actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}.btn{padding:11px 17px;border:1px solid var(--line);border-radius:6px;font-weight:650;font-size:14px}.btn.primary{background:var(--red);border-color:var(--red);color:white}
 .meta{display:grid;grid-template-columns:repeat(3,1fr);border:1px solid var(--line);border-radius:10px;margin:22px 0 70px;background:#171819}
 .meta div{padding:19px 22px}.meta div+div{border-left:1px solid var(--line)}.meta small{display:block;color:var(--red);font:700 11px ui-monospace,monospace;letter-spacing:.12em}.meta strong{display:block;margin-top:7px;font-size:16px}
@@ -25,17 +43,35 @@ section{padding:42px 0 28px;scroll-margin-top:80px}.sectionhead{display:flex;ali
 .timeline{border-left:1px solid var(--line);margin-left:7px;padding-left:24px}.job{padding:0 0 25px;position:relative}.job:before{content:"";position:absolute;left:-29px;top:8px;width:9px;height:9px;border-radius:50%;background:var(--red)}
 footer{margin-top:60px;border-top:1px solid var(--line);padding:36px 0 50px;color:var(--muted)}.contact{display:flex;gap:12px;flex-wrap:wrap;margin-top:18px}
 @media(max-width:760px){.links{gap:11px}.projectgrid,.cols{grid-template-columns:1fr}.project{grid-template-columns:1fr;gap:8px}.meta{grid-template-columns:1fr}.meta div+div{border-left:0;border-top:1px solid var(--line)}.hero{padding-top:55px}.sectionhead{display:block}}
+
+@media(max-width:760px){
+.hero-shell{min-height:470px;border-radius:17px}.hero-top{padding:17px;gap:8px}.hero-logo{font-size:10px}
+.glass-nav{gap:9px;padding:9px 11px;font-size:10px}.hero-contact{font-size:10px;padding:9px 11px}
+.hero-copy{margin:50px 22px 0 auto;max-width:260px}.hero-word{font-size:clamp(95px,25vw,190px);bottom:.02em;left:1%;letter-spacing:-.105em}
+.hero-bottom{left:16px;right:16px;bottom:16px;font-size:8px}.hero-summary{padding:0 8px}
+}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;scroll-behavior:auto!important}}
 </style>
 </head>
 <body>
 <header><div class="wrap"><nav><a class="brand" href="#">MG<span>.</span></a><div class="links"><a href="#proyectos">Proyectos</a><a href="#areas">Áreas</a><a href="#trayectoria">Trayectoria</a><a href="#contacto">Contacto</a></div></nav></div></header>
 <main class="wrap">
 <section class="hero">
-<div class="kicker">Portafolio profesional / 2026</div>
-<h1>Mariana<br>Guzmán<span style="color:var(--red)">.</span></h1>
-<p class="lead">Gestión documental · Tecnología · Diseño de soluciones digitales</p>
-<p class="intro">Conecto la gestión documental con la tecnología para transformar información en soluciones útiles. Soy egresada de la Licenciatura en Administración de Archivo y Gestión Documental de la UNAM. Me interesa desarrollar herramientas que permitan organizar, consultar, interpretar y aprovechar mejor la información.</p>
-<div class="actions"><a class="btn primary" href="#proyectos">Explorar proyectos ↓</a><a class="btn" href="mailto:marianaghernandez1@gmail.com">Contactar</a></div>
+<div class="hero-shell">
+  <div class="hero-top">
+    <a class="hero-logo" href="#">MG<span style="color:var(--red)">.</span> / MARIANA GUZMÁN</a>
+    <div class="glass-nav"><a href="#proyectos">▦ Proyectos</a><a href="#areas">Áreas</a><a href="#trayectoria">Perfil</a></div>
+    <a class="hero-contact" href="mailto:marianaghernandez1@gmail.com">✦ Contacto</a>
+  </div>
+  <div class="hero-copy"><div class="kicker">Portfolio profesional · 2026</div><p>Diseño mejores formas de organizar, consultar y aprovechar la información.</p></div>
+  <div class="hero-word" aria-label="Mariana">MARIANA</div>
+  <div class="hero-bottom"><span>GESTIÓN DOCUMENTAL × TECNOLOGÍA × DISEÑO</span><span>SCROLL PARA EXPLORAR ↓</span></div>
+</div>
+<div class="hero-summary">
+  <p class="lead">Conecto la gestión documental con la tecnología para transformar información en soluciones útiles.</p>
+  <p class="intro">Egresada de la Licenciatura en Administración de Archivo y Gestión Documental de la UNAM. Exploro la intersección entre archivos, sistemas de información, diseño y automatización de procesos.</p>
+  <div class="actions" style="justify-content:center"><a class="btn primary" href="#proyectos">Explorar proyectos ↓</a><a class="btn" href="mailto:marianaghernandez1@gmail.com">Contactar</a></div>
+</div>
 </section>
 <div class="meta"><div><small>ENFOQUE</small><strong>Gestión documental</strong></div><div><small>EXPLORACIÓN</small><strong>Tecnología y automatización</strong></div><div><small>PERSPECTIVA</small><strong>Diseño de información</strong></div></div>
 <section id="proyectos">
