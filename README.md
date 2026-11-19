@@ -4,7 +4,7 @@
 
 ### Organizo la información para que se pueda encontrar, entender y usar.
 
-Archivista con licenciatura en **Administración de Archivo y Gestión Documental** (UNAM). Me interesa cómo la tecnología (automatización, ML y NLP) puede mejorar la forma en que se gestionan los documentos.
+Archivista, egresada de la **Licenciatura en Administración de Archivo y Gestión Documental** (UNAM). Me interesa cómo la tecnología (automatización, ML y NLP) puede mejorar la forma en que se gestionan los documentos.
 
 <img src="stats.svg" alt="Archivista desde 2023 · 9 cursos y seminarios · 3 proyectos" width="100%"/>
 
@@ -14,14 +14,19 @@ Archivista con licenciatura en **Administración de Archivo y Gestión Documenta
 
 ## 💼 Experiencia
 
-**Encargada de Archivo** · Dependencia del gobierno de la Ciudad de México · *Jun. 2023 – Actual*
-- Registro de información y búsqueda de expedientes.
-- Gestión y actualización de base de datos.
-- Elaboración de reporte mensual para llevar control de toda la información recibida y resguardada.
+**Archivo Jurídico** · Grupo HYCSA · *Dic. 2025 – Actual*
+- Custodia y control de documentación jurídica y contratos de obra.
+- Organización de expedientes conforme a su nomenclatura, para facilitar su identificación y localización.
+- Elaboración del manual de archivo del grupo: ciclo completo (trámite, concentración e histórico), préstamo y consulta.
+- Desarrollo de instructivos de préstamo y consulta, clasificación e integración de expedientes, y transferencia y baja documental.
+
+**Encargada de Archivo** · Dependencia del gobierno de la Ciudad de México · *Jun. 2023 – Dic. 2025*
+- Registro, localización y control de expedientes.
+- Gestión y actualización de la base de datos documental.
+- Elaboración de reportes mensuales para el control de la información recibida y resguardada.
 - Elaboración del Programa Anual de Desarrollo Archivístico.
-- Creación de instrumentos archivísticos.
-- Control, actualización y manejo de instrumentos archivísticos.
-- Procedimientos y seguimiento de bajas documentales.
+- Creación, actualización y manejo de instrumentos archivísticos.
+- Seguimiento de procedimientos de baja documental.
 
 ## 🏛️ Prácticas profesionales
 
@@ -30,18 +35,18 @@ Archivista con licenciatura en **Administración de Archivo y Gestión Documenta
 - Estabilización de material archivístico.
 - Intervenciones menores de restauración de planos.
 - Escaneo de documentos.
-- Estética de documentos para mejor legibilidad y mejor acceso, a través de programas de edición.
+- Mejora estética de documentos con programas de edición, para mayor legibilidad y mejor acceso.
 
 **Fideicomiso de Fomento Minero**
 - Creación de identificadores de cajas, portadas y etiquetas para expedientes.
-- Cosimiento de expedientes.
+- Cosido de expedientes.
 - Captura de pólizas diarias, viáticos y regionales.
 - Llenado de inventario general.
 - Transferencia primaria de expedientes.
 
 ## 🎓 Formación
 
-- **Licenciatura en Administración de Archivo y Gestión Documental** · UNAM, Facultad de Filosofía y Letras · 2019 – 2023
+- **Licenciatura en Administración de Archivo y Gestión Documental** (egresada) · UNAM, Facultad de Filosofía y Letras · 2019 – 2023
 - **Técnica profesional en Archivística** · UNAM, Facultad de Filosofía y Letras
 
 ## 📂 Proyectos
@@ -49,8 +54,8 @@ Archivista con licenciatura en **Administración de Archivo y Gestión Documenta
 | Proyecto | Descripción |
 |---|---|
 | 🤖 **Clasificación automática de documentos** | Tesis sobre el uso de *machine learning* y NLP para clasificar documentos de forma automática. |
-| 📑 **Resumen ejecutivo de contratos** | Página web que presenta la información clave de cada contrato en fichas claras y fáciles de consultar. |
-| 🗄️ **Manual de archivo** | Manual de procedimientos para organizar y conservar el archivo de una organización. |
+| 📑 **Resumen ejecutivo de contratos** | Página web en PHP que presenta la información clave de cada contrato en fichas claras y fáciles de consultar, listas para imprimir o guardar como PDF. |
+| 🗄️ **Manual e instructivos de archivo** | Manual de procedimientos para organizar y conservar el archivo de una organización, con instructivos de préstamo y consulta, clasificación e integración de expedientes, y transferencia y baja documental. |
 
 ## 📚 Cursos, seminarios y diplomados
 
